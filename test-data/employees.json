@@ -1,0 +1,50 @@
+{
+  "testEmployees": [
+    {
+      "firstName": "John",
+      "lastName": "Smith",
+      "email": "john.smith@example.com",
+      "employeeId": "EMP001",
+      "jobTitle": "Software Engineer",
+      "department": "Engineering"
+    },
+    {
+      "firstName": "Jane",
+      "lastName": "Johnson",
+      "email": "jane.johnson@example.com",
+      "employeeId": "EMP002",
+      "jobTitle": "Product Manager",
+      "department": "Product"
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Brown",
+      "email": "michael.brown@example.com",
+      "employeeId": "EMP003",
+      "jobTitle": "QA Engineer",
+      "department": "Quality Assurance"
+    },
+    {
+      "firstName": "Sarah",
+      "lastName": "Davis",
+      "email": "sarah.davis@example.com",
+      "employeeId": "EMP004",
+      "jobTitle": "UX Designer",
+      "department": "Design"
+    },
+    {
+      "firstName": "Robert",
+      "lastName": "Miller",
+      "email": "robert.miller@example.com",
+      "employeeId": "EMP005",
+      "jobTitle": "DevOps Engineer",
+      "department": "Infrastructure"
+    }
+  ],
+  "searchKeywords": [
+    "Chris",
+    "John",
+    "Smith",
+    "Engineering"
+  ]
+}

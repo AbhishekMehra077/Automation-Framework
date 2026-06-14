@@ -1,0 +1,33 @@
+{
+  "name": "orangehrm-playwright-bdd",
+  "version": "1.0.0",
+  "description": "Playwright + JavaScript + Cucumber BDD Framework for OrangeHRM",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js",
+    "test:headed": "npx cucumber-js --parallel 1",
+    "test:debug": "npx cucumber-js --parallel 1 --publish",
+    "test:pim": "npx cucumber-js features/pim",
+    "test:auth": "npx cucumber-js features/auth",
+    "test:recruitment": "npx cucumber-js features/recruitment",
+    "test:admin": "npx cucumber-js features/admin",
+    "test:all": "npx cucumber-js features",
+    "clean:reports": "rm -rf reports/screenshots reports/html-reports"
+  },
+  "keywords": [
+    "playwright",
+    "bdd",
+    "cucumber",
+    "orangehrm",
+    "automation"
+  ],
+  "author": "QA Automation",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.5.1",
+    "@playwright/test": "^1.40.1",
+    "dotenv": "^16.3.1",
+    "html-reporter": "^1.3.2"
+  },
+  "dependencies": {}
+}

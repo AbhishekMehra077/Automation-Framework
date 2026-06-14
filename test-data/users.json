@@ -1,0 +1,24 @@
+{
+  "admin": {
+    "username": "Admin",
+    "password": "admin123",
+    "description": "Default admin user for OrangeHRM"
+  },
+  "testUsers": [
+    {
+      "username": "TestUser1",
+      "password": "TestPass@123",
+      "email": "testuser1@orangehrm.com"
+    },
+    {
+      "username": "TestUser2",
+      "password": "TestPass@456",
+      "email": "testuser2@orangehrm.com"
+    }
+  ],
+  "invalidCredentials": {
+    "username": "InvalidUser",
+    "password": "WrongPassword",
+    "description": "Invalid credentials for testing error handling"
+  }
+}
