@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # OrangeHRM Playwright + Cucumber BDD Automation Framework
 
 A production-ready, enterprise-grade test automation framework built with **Playwright**, **JavaScript**, **Cucumber BDD**, and **Page Object Model (POM)** architecture.
@@ -699,3 +700,7 @@ To extend this framework:
 **Happy Testing! 🚀**
 
 For questions or issues, refer to the official documentation or contact the QA Automation team.
+=======
+# Automation-Framework
+Playwright BDD Automation Framework using TypeScript and Cucumber
+>>>>>>> 6db90c9db99ec4c20499303e878d0acf5ea77865
